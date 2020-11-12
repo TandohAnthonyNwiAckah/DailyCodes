@@ -4,6 +4,8 @@ public static void main(String[] args) {
 
     findMaxConsecutiveOnesTest();
 
+    evenDigit();
+
 }
 
 
@@ -18,6 +20,21 @@ public static void findMaxConsecutiveOnesTest() {
 
     System.out.println("The maximum number of consecutive 1s is : " + arr.findMaxConsecutiveOnes(num));
 
+}
+
+
+
+
+public static void evenDigit() {
+
+     EvenDigit evd = new EvenDigit();
+
+     int num[] = { 120, 20, 1, 1230,110,1200};
+     
+
+      System.out.println("There  are  " + evd.findNumbers(num) + " number with even Digits");
+
+    
 }
 
 
