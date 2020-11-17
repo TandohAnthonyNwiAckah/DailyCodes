@@ -8,6 +8,7 @@
 public class ArrayOne {
     
     public int findMaxConsecutiveOnes(int[] nums) {
+
         int maxCons = 0;
         int count = 0;
 
@@ -18,7 +19,8 @@ public class ArrayOne {
             } else
                 count = 0;
         }
-
+        
+        
         return maxCons;
     }
 }

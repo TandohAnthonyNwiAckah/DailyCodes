@@ -40,7 +40,10 @@ public static void main(String[] args) {
 
     // jumping();
 
-    arraySquare();
+    // duplicateZero();
+
+    // arraySquare();
+
 
 
 }
@@ -69,29 +72,43 @@ public static void jumping() {
 // Test for the maximum number of consecutive 1s.
 public static void findMaxConsecutiveOnesTest() {
     
-    ArrayOne arr = new ArrayOne();
+    // ArrayOne arr = new ArrayOne();
 
     int num[] = { 0, 0, 1, 0, 1, 1, 1, 0, 0,0, 1, 1, 1, 1, 1 ,1};
 
-    System.out.println("The maximum number of consecutive 1s in " + Arrays.toString(num) + " is : " + arr.findMaxConsecutiveOnes(num));
+    // System.out.println("The maximum number of consecutive 1s in " + Arrays.toString(num) + " is : " + arr.findMaxConsecutiveOnes(num));
 
-    // int index = 0;
-    // int maxCount = 0;
+    int index = 0;
+    int maxCount = 0;
 
-    // for(int x = 0; x < num.length; x++){
+//  for (int i : num) {
 
-    //     if(num[x] == 0){
-    //         index++ ;
-    //         maxCount = Math.max(index, maxCount);
+//     System.out.println(i);
+
+//        if(num[i] == 0){
+//             index++ ;
+//             maxCount = Math.max(index, maxCount);
+//         }
+//         else{
+//           index = 0 ;
+//         }
+     
+//  }
 
 
-    //     }
-    //     else{
-    //       index = 0 ;
-    //     }
-    // }
+    for(int x = 0; x < num.length; x++){
 
-    // System.out.println("The maximum number of consecutive 0s in " + Arrays.toString(num) + " is : "  + maxCount);
+        if(num[x] == 0){
+            index++ ;
+            maxCount = Math.max(index, maxCount);
+        }
+        else{
+          index = 0 ;
+        }
+    }
+
+
+   System.out.println("The maximum number of consecutive 0s in " + Arrays.toString(num) + " is : "  + maxCount);
 
 }
 
@@ -121,7 +138,15 @@ public static void arraySquare() {
 
 }
 
+public static void duplicateZero() {
 
+    DuplicateZero dup = new DuplicateZero();
+
+    int input[] = { 1, 0, 2, 3, 0, 4, 5, 0};
+
+    dup.duplicateZeros(input);
+    
+}
 
 
 
