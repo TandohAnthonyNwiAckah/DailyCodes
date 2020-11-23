@@ -44,7 +44,7 @@ public static void main(String[] args) {
 
     // arraySquare();
 
-
+      arrayMerge();
 
 }
 
@@ -147,6 +147,22 @@ public static void duplicateZero() {
     dup.duplicateZeros(input);
     
 }
+
+public static void arrayMerge() {
+
+    ArrayMerge arm = new ArrayMerge();
+
+    int num1[] = { 1, 0, 2, 3, 0, 4, 5, 0};
+
+    int num2[] = { 4, 1, 3, 0, 1, 1, 3, 9 };
+
+    int m =3, n=3 ;
+
+    arm.merge(num1, m, num2, n);
+
+}
+
+
 
 
 

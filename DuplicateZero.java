@@ -52,12 +52,7 @@ public class DuplicateZero {
             arr[i] = tmp;
             tmp = inner;
 
-
-
         }
-
-   
-
     }
 
 }
