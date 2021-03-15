@@ -34,6 +34,8 @@ public static void main(String[] args) {
 
     // MainTestCase obj = new MainTestCase();
 
+    //  arra();
+
     // findMaxConsecutiveOnesTest();
 
     // evenDigit();
@@ -45,6 +47,29 @@ public static void main(String[] args) {
     // arraySquare();
 
     // arrayMerge();
+
+}
+
+
+ public static void arra() {
+
+    Array arr = new Array(3);
+
+    arr.insert(10);
+
+    arr.insert(20);
+
+    arr.insert(30);
+
+    arr.insert(40);
+
+    arr.removeAt(0);
+
+    arr.print();
+
+    System.out.println("The index of the number 20 is : " + arr.indexOf(20));
+
+     System.out.println("The index of the number 50 is : " + arr.indexOf(50));
 
 }
 
@@ -154,7 +179,7 @@ public static void duplicateZero() {
 }
 
 
-// Test for Array Marge.
+// Test for Array Merge.
 public static void arrayMerge() {
 
     ArrayMerge arm = new ArrayMerge();
@@ -168,7 +193,6 @@ public static void arrayMerge() {
     arm.merge(num1, m, num2, n);
 
 }
-
 
 
 }
