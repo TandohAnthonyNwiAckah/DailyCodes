@@ -2,8 +2,6 @@ import java.util.Arrays;
 
 public class MainTestCase {
 
- //TODO:: Uncomment each method in the main Method to run the test.
-
 public MainTestCase(){
     
 System.out.printf("1");
@@ -12,6 +10,8 @@ new MainTestCase(10);
 
 System.out.printf("5");
 
+System.out.println();
+
 
 }
 
@@ -19,7 +19,6 @@ public MainTestCase(int temp){
 System.out.printf("2");
 
 new MainTestCase(10,20);
-
 
 System.out.printf("4");
 
@@ -30,6 +29,7 @@ public MainTestCase(int data,int temp){
 }
 
 
+// TODO:: Uncomment each method in the main Method to run the test.
 public static void main(String[] args) {
 
     // MainTestCase obj = new MainTestCase();
@@ -44,7 +44,7 @@ public static void main(String[] args) {
 
     // arraySquare();
 
-      arrayMerge();
+    // arrayMerge();
 
 }
 
@@ -68,6 +68,7 @@ public static void jumping() {
 
     
 }
+
 
 // Test for the maximum number of consecutive 1s.
 public static void findMaxConsecutiveOnesTest() {
@@ -125,6 +126,8 @@ public static void evenDigit() {
     
 }
 
+
+// Test for Array Square
 public static void arraySquare() {
     
     ArraySquare arr = new ArraySquare();
@@ -138,6 +141,8 @@ public static void arraySquare() {
 
 }
 
+
+// Test for Duplicate Zero
 public static void duplicateZero() {
 
     DuplicateZero dup = new DuplicateZero();
@@ -148,6 +153,8 @@ public static void duplicateZero() {
     
 }
 
+
+// Test for Array Marge.
 public static void arrayMerge() {
 
     ArrayMerge arm = new ArrayMerge();
@@ -161,8 +168,6 @@ public static void arrayMerge() {
     arm.merge(num1, m, num2, n);
 
 }
-
-
 
 
 
